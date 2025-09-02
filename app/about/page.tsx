@@ -43,7 +43,7 @@ const About = () => {
     {
       year: '2018',
       title: 'Company Founded',
-      description: 'Started with a vision to unlock BMW potential'
+                description: 'Started with a vision to unlock BMW potential'
     },
     {
       year: '2019',
@@ -126,7 +126,7 @@ const About = () => {
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">About Bimmer Fixes</h1>
             <p className="text-xl max-w-3xl mx-auto opacity-90">
-              Passionate BMW specialists dedicated to unlocking your vehicle's hidden potential 
+              Passionate BMW specialists dedicated to unlocking your vehicle{`'`}s hidden potential 
               through professional coding, upgrades, and exceptional service.
             </p>
           </div>
@@ -140,11 +140,11 @@ const About = () => {
           <p className="text-xl text-gray-600 leading-relaxed mb-8">
             At Bimmer Fixes, we believe every BMW has untapped potential waiting to be unlocked. 
             Our mission is to provide professional, safe, and innovative BMW coding services that 
-            transform your driving experience while maintaining your vehicle's integrity and warranty.
+            transform your driving experience while maintaining your vehicle{`'`}s integrity and warranty.
           </p>
           <div className="bg-blue-50 rounded-2xl p-8">
             <blockquote className="text-2xl font-semibold text-blue-900 italic">
-              "We don't just modify BMWs – we unlock their true personality and potential."
+              {`"`}We don{`'`}t just modify BMWs – we unlock their true personality and potential.{`"`}
             </blockquote>
             <cite className="text-blue-700 font-medium mt-4 block">- Michael Rodriguez, Founder</cite>
           </div>
@@ -291,7 +291,7 @@ const About = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-gray-900 mb-6">Ready to Transform Your BMW?</h2>
           <p className="text-xl text-gray-600 mb-8">
-            Join hundreds of satisfied customers who have unlocked their BMW's true potential with Bimmer Fixes.
+            Join hundreds of satisfied customers who have unlocked their BMW{`'`}s true potential with Bimmer Fixes.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

@@ -73,7 +73,7 @@ const Testimonials = () => {
             What Our Customers Say
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Don't just take our word for it. Here's what BMW enthusiasts say about their experience with Bimmer Fixes.
+            Don{`'`}t just take our word for it. Here{`'`}s what BMW enthusiasts say about their experience with Bimmer Fixes.
           </p>
         </div>
 
@@ -102,7 +102,7 @@ const Testimonials = () => {
 
               {/* Testimonial Text */}
               <blockquote className="text-gray-700 mb-6 leading-relaxed">
-                "{testimonial.text}"
+                {`"`}{testimonial.text}{`"`}
               </blockquote>
 
               {/* Customer Info */}

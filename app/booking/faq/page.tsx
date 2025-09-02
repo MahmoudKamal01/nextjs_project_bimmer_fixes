@@ -29,9 +29,9 @@ const FAQPage = () => {
       <section className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">Need More Help?</h2>
-          <p className="text-lg text-gray-600 mb-8">
-            Can't find the answer you're looking for? Our BMW experts are here to help.
-          </p>
+                      <p className="text-lg text-gray-600 mb-8">
+              Can{`'`}t find the answer you{`'`}re looking for? Our BMW experts are here to help.
+            </p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-2xl p-6 shadow-sm">

@@ -13,7 +13,7 @@ const Hero = () => {
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
             Professional BMW upgrades, coding, and customization services. 
-            Unlock your vehicle's full potential with Bimmer Fixes.
+            Unlock your vehicle{`'`}s full potential with Bimmer Fixes.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

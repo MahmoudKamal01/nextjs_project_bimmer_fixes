@@ -87,7 +87,7 @@ const Packages = () => {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Choose from our expertly crafted BMW coding and upgrade packages, 
-            designed to unlock your vehicle's full potential.
+            designed to unlock your vehicle{`'`}s full potential.
           </p>
         </div>
 

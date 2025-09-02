@@ -172,7 +172,7 @@ const CarDetails = () => {
               {activeTab === 'overview' && (
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                   <div>
-                    <h3 className="text-2xl font-bold text-gray-900 mb-6">What's Included</h3>
+                    <h3 className="text-2xl font-bold text-gray-900 mb-6">What{`'`}s Included</h3>
                     <ul className="space-y-3">
                       {car.included.map((item, index) => (
                         <li key={index} className="flex items-center">

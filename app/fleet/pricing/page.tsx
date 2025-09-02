@@ -268,7 +268,7 @@ const Pricing = () => {
 
           <div className="space-y-8">
             <div className="bg-gray-50 rounded-2xl p-8">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">What's Included</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">What{`'`}s Included</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <ul className="space-y-2">
                   <li className="flex items-center">
@@ -329,7 +329,7 @@ const Pricing = () => {
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Important Notes</h3>
               <ul className="space-y-3 text-gray-700">
                 <li>• Minimum age requirement: 25 years old</li>
-                <li>• Valid driver's license and major credit card required</li>
+                <li>• Valid driver{`'`}s license and major credit card required</li>
                 <li>• Security deposit: $500-$2,000 depending on vehicle category</li>
                 <li>• Fuel policy: Return with same fuel level or pay refueling fee</li>
                 <li>• Late return fee: $50/hour after grace period</li>
