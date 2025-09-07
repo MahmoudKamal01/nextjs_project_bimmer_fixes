@@ -74,7 +74,7 @@ export default function Home() {
     "/reviews/3.PNG",
     "/reviews/4.PNG",
     "/reviews/5.PNG",
-    "/reviews/6.PNG",
+    "/reviews/6.png",
   ];
 
   const faqs = [
