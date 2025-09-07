@@ -8,21 +8,21 @@ const ContactPage = () => {
     {
       city: "Cairo",
       address: "New Cairo, Egypt",
-      phone: "01002144865",
+      phone: "+201002144865",
       hours: "Mon-Sat: 8AM-6PM, Sun: 10AM-4PM",
       services: ["Coding Services", "Vehicle Rentals", "Custom Modifications"],
     },
     {
       city: "Alexandria",
       address: "Alexandria, Egypt",
-      phone: "01002144865",
+      phone: "+201002144865",
       hours: "Mon-Sat: 8AM-6PM, Sun: 10AM-4PM",
       services: ["Coding Services", "Vehicle Rentals", "Performance Tuning"],
     },
     {
       city: "Giza",
       address: "Giza, Egypt",
-      phone: "01002144865",
+      phone: "+201002144865",
       hours: "Mon-Sat: 8AM-6PM, Sun: Closed",
       services: ["Coding Services", "Vehicle Rentals", "Diagnostic Services"],
     },
@@ -204,7 +204,7 @@ const ContactPage = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+201002144865"
+                href="tel:+2+201002144865"
                 className="bg-red-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-red-700 transition-colors inline-flex items-center justify-center"
               >
                 <svg
@@ -264,10 +264,10 @@ const ContactPage = () => {
               </h3>
               <p className="text-gray-600 mb-3">Speak with our experts</p>
               <a
-                href="tel:+201002144865"
+                href="tel:+2+201002144865"
                 className="text-blue-600 font-semibold hover:text-blue-700"
               >
-                01002144865
+                +201002144865
               </a>
             </div>
 

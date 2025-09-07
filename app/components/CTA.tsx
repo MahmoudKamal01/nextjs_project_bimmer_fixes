@@ -136,7 +136,7 @@ const CTA = () => {
           <div className="mt-16 pt-8 border-t border-white border-opacity-20">
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-8">
               <a
-                href="tel:+201002144865"
+                href="tel:+2+201002144865"
                 className="flex items-center text-lg hover:text-blue-200 transition-colors"
               >
                 <svg
@@ -152,7 +152,7 @@ const CTA = () => {
                     d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                   />
                 </svg>
-                01002144865
+                +201002144865
               </a>
               <a
                 href="mailto:info@bimmerfixes.com"

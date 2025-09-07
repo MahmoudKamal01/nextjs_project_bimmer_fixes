@@ -61,17 +61,6 @@ export default function Home() {
         "Detailed reports",
       ],
     },
-    {
-      title: "Maintenance Services",
-      description:
-        "Professional maintenance and repair services to keep your BMW running at peak performance.",
-      features: [
-        "Regular maintenance",
-        "Performance tuning",
-        "Software updates",
-        "Technical support",
-      ],
-    },
   ];
 
   const reviewImages = [
@@ -216,7 +205,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {services.map((service, index) => (
               <div
                 key={index}
@@ -569,7 +558,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">Phone</h4>
-                      <p className="text-gray-600">01002144865</p>
+                      <p className="text-gray-600">+201002144865</p>
                       <p className="text-sm text-gray-500">Mon-Sat: 8AM-6PM</p>
                     </div>
                   </div>
@@ -737,7 +726,7 @@ export default function Home() {
               <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
               <div className="space-y-2 text-gray-400">
                 <p>Email: info@bimmerfixes.com</p>
-                <p>Phone: 01002144865</p>
+                <p>Phone: +201002144865</p>
               </div>
             </div>
           </div>

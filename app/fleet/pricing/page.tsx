@@ -27,17 +27,6 @@ const LandingPage = () => {
         "Detailed reports",
       ],
     },
-    {
-      title: "Maintenance Services",
-      description:
-        "Professional maintenance and repair services to keep your BMW running at peak performance.",
-      features: [
-        "Regular maintenance",
-        "Performance tuning",
-        "Software updates",
-        "Technical support",
-      ],
-    },
   ];
 
   const reviews = [
@@ -106,7 +95,7 @@ const LandingPage = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {services.map((service, index) => (
               <div
                 key={index}

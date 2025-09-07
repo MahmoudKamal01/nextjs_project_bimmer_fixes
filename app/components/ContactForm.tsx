@@ -260,7 +260,7 @@ const ContactForm = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">Phone</h4>
-                    <p className="text-gray-600">01002144865</p>
+                    <p className="text-gray-600">+201002144865</p>
                     <p className="text-sm text-gray-500">Mon-Sat: 8AM-6PM</p>
                   </div>
                 </div>
