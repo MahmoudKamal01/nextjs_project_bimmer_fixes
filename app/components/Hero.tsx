@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -12,7 +12,7 @@ const Hero = () => {
             <span className="block text-blue-400">With Expert Precision</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-            Professional BMW upgrades, coding, and customization services. 
+            Professional BMW upgrades, coding, and customization services.
             Unlock your vehicle{`'`}s full potential with Bimmer Fixes.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -31,7 +31,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      
+
       {/* Hero stats */}
       <div className="relative bg-white text-gray-900 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -48,15 +48,11 @@ const Hero = () => {
               <div className="text-3xl font-bold text-blue-600 mb-2">5★</div>
               <div className="text-gray-600">Customer Rating</div>
             </div>
-            <div>
-              <div className="text-3xl font-bold text-blue-600 mb-2">24/7</div>
-              <div className="text-gray-600">Support Available</div>
-            </div>
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

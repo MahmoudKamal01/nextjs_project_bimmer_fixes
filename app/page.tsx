@@ -15,6 +15,8 @@ export default function Home() {
     inquiry: "",
   });
 
+  const [expandedFaq, setExpandedFaq] = useState<number | null>(null);
+
   const handleChange = (
     e: React.ChangeEvent<
       HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
@@ -31,6 +33,10 @@ export default function Home() {
     // Handle form submission here
     console.log("Form submitted:", formData);
     // You would typically send this data to your backend
+  };
+
+  const toggleFaq = (index: number) => {
+    setExpandedFaq(expandedFaq === index ? null : index);
   };
   const services = [
     {
@@ -156,9 +162,9 @@ export default function Home() {
               <span className="block text-gray-300">With Expert Precision</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-90">
-              Genuine BMW Upgrades&Coding Services <br /> ▪️Remote Coding💻
-              ▪️Apple CarPlay📱 ▪️Sound System Upgrades <br /> ▪️Rear View
-              Camera ▪️iDrive Upgrades 🌍 Worldwide Team
+              Genuine BMW Upgrades & Coding Services <br /> Remote Coding
+              ▪️Apple CarPlay ▪️Sound System Upgrades <br /> Rear View Camera
+              ▪️iDrive Upgrades Worldwide Team
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -180,7 +186,7 @@ export default function Home() {
         {/* Hero stats */}
         <div className="relative bg-gray-50 text-gray-900 py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
               <div>
                 <div className="text-3xl font-bold text-black mb-2">500+</div>
                 <div className="text-gray-600">BMWs Serviced</div>
@@ -192,10 +198,6 @@ export default function Home() {
               <div>
                 <div className="text-3xl font-bold text-black mb-2">5★</div>
                 <div className="text-gray-600">Customer Rating</div>
-              </div>
-              <div>
-                <div className="text-3xl font-bold text-black mb-2">24/7</div>
-                <div className="text-gray-600">Support Available</div>
               </div>
             </div>
           </div>
@@ -291,16 +293,48 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="space-y-6">
+          <div className="space-y-4">
             {faqs.map((faq, index) => (
               <div
                 key={index}
-                className="bg-white rounded-2xl p-6 shadow-sm border border-gray-200"
+                className="bg-white rounded-lg border border-gray-200 shadow-sm"
               >
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                  {faq.question}
-                </h3>
-                <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
+                <button
+                  onClick={() => toggleFaq(index)}
+                  className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50 transition-colors focus:outline-none focus:ring-2 focus:ring-black focus:ring-inset"
+                >
+                  <h3 className="text-lg font-semibold text-gray-900">
+                    {faq.question}
+                  </h3>
+                  <svg
+                    className={`w-5 h-5 text-gray-500 transform transition-transform duration-200 ${
+                      expandedFaq === index ? "rotate-180" : ""
+                    }`}
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </button>
+                <div
+                  className={`overflow-hidden transition-all duration-300 ease-in-out ${
+                    expandedFaq === index
+                      ? "max-h-96 opacity-100"
+                      : "max-h-0 opacity-0"
+                  }`}
+                >
+                  <div className="px-6 pb-4">
+                    <p className="text-gray-600 leading-relaxed">
+                      {faq.answer}
+                    </p>
+                  </div>
+                </div>
               </div>
             ))}
           </div>

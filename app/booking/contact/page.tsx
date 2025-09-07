@@ -197,9 +197,6 @@ const ContactPage = () => {
                 </svg>
               </div>
             </div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              24/7 Emergency Support
-            </h2>
             <p className="text-gray-600 mb-6">
               Having issues with your rental BMW? Our emergency support team is
               available around the clock to assist with roadside assistance,
