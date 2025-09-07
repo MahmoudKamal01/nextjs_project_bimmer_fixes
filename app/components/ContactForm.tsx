@@ -314,9 +314,9 @@ const ContactForm = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900">Location</h4>
-                    <p className="text-gray-600">Multiple Service Centers</p>
-                    <p className="text-sm text-gray-500">
-                      Mobile service available
+                    <p className="text-gray-600">
+                      Industrial Area, New Cairo 3, Cairo Governorate , Cairo,
+                      Egypt
                     </p>
                   </div>
                 </div>
